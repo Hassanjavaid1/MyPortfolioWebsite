@@ -1,0 +1,27 @@
+.footer{
+    box-shadow: 0rem 1rem 7rem 3rem black;
+}
+.sub-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23rem;
+    background: linear-gradient(1deg, black, #4b3674);
+    height: 4rem;
+}
+.footer_icon{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+}
+#foot-icon:hover{
+    font-size: 1rem;
+    scale: 1.4;
+    box-shadow: 0px 1px 10px 3px #6e86fb;
+    transition: 0.5s
+}
+.copy-right{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,85 @@
+@media (max-width:950px){
+    .know_me{
+        line-height: 4;
+    }
+    .full_detail{
+        margin-top: 7.5rem;
+    margin-left: 1.4rem;
+    }
+    .sub_know_me{
+        margin-left: 3rem!important;
+    }
+    
+}
+@media (max-width:540px){
+    .full_detail{
+        flex-direction: column;
+    }
+    #sub_tech{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #sub_tool{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .tech_icon{
+        border: 2px solid #2b2b5c;
+    padding: 1.6rem;
+    width: 13.2rem;
+    border-radius: 3px;
+    transition: 1s;
+    font-size: 4rem!important 
+    }
+    .tech_icon:hover{
+        padding: 1.6rem;
+        width: 13.2rem;
+        border: 2px solid #2b2b5c;
+        border-radius: 3px;
+        box-shadow: 0px 1px 8px 2px #8c2aff;
+        animation: 1s;
+        scale: 1.1;
+        background: linear-gradient(76deg, #00000080, transparent);
+        
+    }
+    .tool_icon{
+        border: 2px solid #2b2b5c;
+    padding: 1.6rem;
+    width: 13.2rem;
+    border-radius: 3px;
+    transition: 1s;
+    font-size: 4rem!important 
+    }
+    .tool_icon:hover{
+        padding: 1.6rem;
+        width: 13.2rem;
+        border: 2px solid #2b2b5c;
+        border-radius: 3px;
+        box-shadow: 0px 1px 8px 2px #8c2aff;
+        animation: 1s;
+        scale: 1.1;
+        background: linear-gradient(76deg, #00000080, transparent);
+        
+    }
+}
+@media (max-width:360px){
+    .tech_icon{
+        width: 9.2rem!important;
+    }
+    .tool_icon{
+        width: 9.2rem!important;
+    }
+    
+}
+@media(max-width:280px){
+    .tech_icon{
+        width: 6.7rem!important;
+    }
+    .tool_icon{
+        width: 6.7rem!important;
+    }
+    #sub_heading{
+        text-align: center;
+    margin-bottom: 11rem;
+    line-height: 2;
+    }
+    
+  }

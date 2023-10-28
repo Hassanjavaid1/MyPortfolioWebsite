@@ -1,0 +1,159 @@
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  margin-left: 8rem;
+}
+.homeContent {
+  /* margin-right: -2rem;  */
+  margin-bottom: -0.7rem;
+}
+#handeshak {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 4px;
+  box-shadow: 0px 1px 20px 5px #050505;
+  border: 1px solid #8d40f0;
+  opacity: 0.9;
+}
+#greet {
+  display: flex;
+  align-items: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  gap: 0.3rem;
+}
+#spanName {
+  color: #a268ff;
+  font-family: cursive;
+  font-weight: bold;
+}
+h1 {
+  margin-top: -1rem;
+}
+#person {
+  height: 20rem;
+  filter: drop-shadow(1rem 2rem 2rem #4b3083);
+}
+.typewrite {
+  font-size: 1.8rem;
+  position: absolute;
+  color: red;
+}
+
+span {
+  color: #b98dff !important;
+  font-size: 2rem;
+  font-weight: 500;
+}
+#introduceMySelf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -9rem;
+}
+
+#me {
+  height: 15rem;
+  filter: drop-shadow(5.4px 4px 6px black);
+}
+#me:hover {
+  height: 15rem;
+  filter: drop-shadow(5.4px 4px 6px black);
+  scale: 1.1;
+  transition: 0.5s;
+}
+.my-self {
+  margin: auto;
+  margin-bottom: 6rem;
+  position: relative;
+  width: fit-content;
+  margin-left: 18rem;
+}
+.my-self::before {
+  content: "LET ME INTRODUCE MYSELF! ";
+  width: 100%;
+  color: #c770f0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-right: 0.4rem solid #c770f0;
+  animation: slide 3s linear infinite;
+  -webkit-animation: slide 10s linear infinite;
+  overflow: hidden;
+}
+@keyframes slide {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+.my-pic {
+  margin-right: 13rem;
+}
+.sub_intro {
+  margin-top: 10rem;
+}
+#desc {
+  font-size: 1.3rem;
+  line-height: 2.5;
+  margin-left: 7.5rem;
+  text-align: center;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+#skillSet {
+  color: #c770f0;
+}
+#skillSet {
+  color: #f985db !important;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.self-desc {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.heading {
+  text-align: center;
+  text-align: center;
+  line-height: 0;
+}
+h3 {
+  font-size: 2.3rem;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+#span-connect {
+  font-size: 1rem;
+}
+#icon {
+  border-radius: 3.1rem;
+  font-size: 2.2rem;
+}
+#icon:hover {
+  border-radius: 3.1rem;
+  font-size: 2.2rem;
+  scale: 1.1;
+  transition: 1s;
+  cursor: pointer;
+  box-shadow: 0px 1px 20px 8px #8d43f0;
+}
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+.hamburger{
+  display: none;
+}

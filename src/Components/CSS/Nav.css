@@ -1,0 +1,80 @@
+
+.SubNav{
+
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+    transition: 1s;
+}
+.NavContainer{
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+.scrollUp{
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+    background-color: rgb(0 0 0 / 41%);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    height: 4.6rem;
+    transition: 1s;
+}
+.logoName{
+    display: flex;
+    align-items: center;
+    margin-left: 2.5rem;
+    gap: 0.4rem;
+}
+#name{
+    font-size: 1.9rem;
+}
+.NavLink{
+    display: flex;
+    gap: 6rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+#logo{
+    height: 3.8rem;
+    width: 2.3rem;
+    transition: width 2s;
+
+}
+#logo:hover{
+    scale: 1.1;
+    height: 3.8rem;
+    width: 2.3rem;
+    cursor: pointer;
+
+    filter: drop-shadow(1px 0px 7px #CE78DD)
+
+}
+a{
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+    gap: 0.2rem;
+}
+svg{
+    font-size: 1.4rem;
+
+}
+#homeLogo{
+    font-size: 1.5rem;
+}
+.link{
+    position: relative;
+}
+.link:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 4px;
+    background-color: #5661ff;
+    transition: width 0.3s ease;
+  }

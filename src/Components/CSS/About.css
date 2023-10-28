@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    background-image: url('../Photos/background\ image.jpg');
+    background-position: top;
+}
+#about_person{
+    height: 21rem;
+}
+.full_detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    margin-left: 11.4rem;
+    font-size: 1.1rem;
+    line-height: 2.2;
+    font-family: sans-serif;
+    color: #ffefd1;
+}
+.sub_know_me{
+    position: relative;
+    top: 9rem;
+    margin-left: 12rem;
+}
+.know_heading{
+    font-size: 2rem;
+}
+.about_span{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.tech_used{
+
+}
+h4{
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+#sub_heading{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.tech_icon{
+    font-size: 6rem;
+    border: 2px solid #2b2b5c;
+    padding: 1rem;
+    width: 11rem;
+    border-radius: 3px;
+    transition: 1s;
+}
+.tech_icon:hover{
+    font-size: 6rem;
+    border: 2px solid #2b2b5c;
+    padding: 1rem;
+    width: 11rem;
+    border-radius: 3px;
+    box-shadow: 0px 1px 8px 2px #8c2aff;
+    animation: 1s;
+    scale: 1.1;
+    background: linear-gradient(76deg, #00000080, transparent);
+    
+}
+#sub_tech{
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    width: fit-content;
+    gap: 1rem;
+    margin: auto;
+
+}
+
+.tool_used{
+  margin-top: 4rem;
+}
+h4{
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.tool_icon{
+    font-size: 6rem;
+    border: 2px solid #2b2b5c;
+    padding: 1rem;
+    width: 11rem;
+    border-radius: 3px;
+    transition: 1s;
+}
+.tool_icon:hover{
+    font-size: 6rem;
+    border: 2px solid #2b2b5c;
+    padding: 1rem;
+    width: 11rem;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px 3px #d3aeff;
+    animation: 1s;
+    scale: 1.1;
+    background: linear-gradient(52deg, #6b5f6ebf, transparent);
+    
+}
+#sub_tool{
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    width: fit-content;
+    gap: 1rem;
+    margin: auto;
+    margin-bottom: 5rem;
+
+}
+.socialPlatform{
+    margin-bottom: 3rem;
+}
+
