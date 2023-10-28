@@ -20,6 +20,7 @@ import { FaNodeJs } from "react-icons/fa";
 import SocialHandle from "./SocialHandle";
 
 export default function About() {
+  document.title =  'Hassanjavaid | About'
   return (
     <>
       <div className="know_me">

@@ -7,6 +7,7 @@ import project_weather from "./Photos/project_weather.jpg";
 import react_calculator from './Photos/React Calculator.jpg'
 
 export default function Projects() {
+  document.title = "Hassanjavaid | Projects"
   return (
     <>
       <div className="prjects">

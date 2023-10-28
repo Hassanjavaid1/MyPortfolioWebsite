@@ -1,6 +1,7 @@
 import React from "react";
 import "./CSS/Contact.css";
 export default function Contact() {
+  document.title = "Hassanjavaid | Contact"
   return (
     <>
       <div className="contact">
