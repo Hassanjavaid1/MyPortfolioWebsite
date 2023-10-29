@@ -11,7 +11,7 @@ import { BrowserRouter,Routes,Route} from "react-router-dom";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/MyPortfolioWebsite">
         <Navbar />
         <div>
           <Routes>
