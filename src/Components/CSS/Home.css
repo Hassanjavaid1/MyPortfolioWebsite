@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4rem;
   margin-left: 8rem;
+  margin-top: 4rem;
 }
 .homeContent {
   /* margin-right: -2rem;  */
@@ -154,6 +154,6 @@ h3 {
   margin-top: 3rem;
   gap: 2rem;
 }
-.hamburger{
+.hamburger {
   display: none;
 }

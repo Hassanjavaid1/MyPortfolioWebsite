@@ -1,0 +1,132 @@
+.sub-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: center;
+  margin-top: 4rem;
+  grid-gap: 1rem;
+}
+.projects {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+.project_box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #8e79ff;
+  width: max-content;
+  padding: 1rem;
+  border-radius: 5px;
+  transition: 0.6s;
+  background: linear-gradient(45deg, black, transparent);
+}
+.project_box:hover {
+  box-shadow: 0px 0px 4px 2px #7c67f1;
+  background: linear-gradient(45deg, transparent, transparent);
+  scale: 1.1;
+}
+.project_img {
+  width: 18rem !important;
+  object-fit: contain;
+}
+h5 {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.github {
+  background: #713e9b;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0px solid;
+  transition: 0.1s;
+}
+.github:hover {
+  background: transparent;
+  scale: 1.1;
+  border: 2px solid #8c00ff;
+}
+.demo {
+  background: #713e9b;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0px solid;
+  transition: 0.1s;
+}
+.demo:hover {
+  background: transparent;
+  scale: 1.1;
+  border: 2px solid #8c00ff;
+}
+
+.latest_project {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-shadow: 0px 2px 0px wheat;
+}
+
+/* 
+///////////////
+///////////////
+
+Services
+///////////////
+/////////////// */
+
+.sub_services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #0000009c;
+
+  width: fit-content;
+  padding: 0.2rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  transition: 0.1s;
+}
+.sub_services:hover {
+  box-shadow: 0rem 0rem 0.1rem 2.1px white;
+}
+.service_detail {
+  width: 22rem;
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.7;
+  font-family: sans-serif;
+}
+.service_icon {
+  font-size: 5rem;
+  margin-top: 0.8rem;
+}
+.service_title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.main_service {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: center;
+  gap: 1.1rem;
+  height: fit-content;
+}
+.my_services {
+  font-family: sans-serif;
+  margin-top: 4rem;
+}

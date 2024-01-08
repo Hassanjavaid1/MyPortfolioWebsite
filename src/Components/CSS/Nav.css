@@ -3,7 +3,7 @@
 
     display: flex;
     align-items: center;
-    gap: 20rem;
+    gap: 23rem;
     transition: 1s;
 }
 .NavContainer{
@@ -14,7 +14,7 @@
 .scrollUp{
     display: flex;
     align-items: center;
-    gap: 20rem;
+    gap: 23rem;
     background-color: rgb(0 0 0 / 41%);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
@@ -32,7 +32,7 @@
 }
 .NavLink{
     display: flex;
-    gap: 6rem;
+    gap: 2rem;
     font-size: 1.2rem;
     font-family: sans-serif;
 }

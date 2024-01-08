@@ -6,7 +6,10 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { IoIosContact } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-scroll"; 
+import {  NavLink } from "react-router-dom";
+import { MdMedicalServices } from "react-icons/md";
+
 
 function Navbar() {
   const [handleScroll, sethandleScroll] = useState("SubNav");
@@ -45,11 +48,17 @@ function Navbar() {
             <NavLink to="/" className="link">
               <AiOutlineHome /> Home
             </NavLink>
-            <NavLink to="/about" className="link">
+            <Link to ='About' spy={true} smooth={true} duration={250} className="link">
+    
               <BsFillPersonLinesFill /> About
-            </NavLink>
-            <NavLink to="/projects" className="link">
-              <AiOutlineFundProjectionScreen /> Projects
+        
+            </Link>
+            <Link to ='My_Services' spy={true} smooth={true} duration={250} className="link">
+
+              <MdMedicalServices /> Services
+            </Link>
+            <NavLink to="/Portfolio" className="link">
+              <AiOutlineFundProjectionScreen /> Portfolio
             </NavLink>
             <NavLink to="/contact" className="link">
               <IoIosContact />

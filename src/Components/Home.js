@@ -4,17 +4,20 @@ import "./CSS/Home.css";
 import handeshak from "./Photos/handshake.gif";
 import person from "./Photos/person.png";
 import Hassanjavaid from "./Photos/me.svg";
-import SocialHandle from "./SocialHandle";
-import Footer from "./Footer";
 import "./CSS/MediaHome.css";
 
+const SocialHandle = React.lazy(()=> import('./SocialHandle'))
+const Footer = React.lazy(()=> import('./Footer'))
+const About = React.lazy(()=> import('./About'))
+const My_Services = React.lazy(()=> import('./My_Services'))
 export default function Home() {
+  document.title = 'Hassanjavaid | Home'
   const [text] = useTypewriter({
     words: [
+      "Freelancer",
       "React JS Developer",
       "FrontEnd Web Developer",
       "Open Source Contributor",
-      "Freelancer",
     ],
     loop: {},
   });
@@ -41,7 +44,7 @@ export default function Home() {
           <img src={person} alt="" id="person" />
         </div>
       </div>
-      <div className="introduction">
+      {/* <div className="introduction">
         <div className="sub_intro">
           <h1 className="my-self" data-aos="fade-up">
             LET ME INTRODUCE MYSELF!🌟{" "}
@@ -64,8 +67,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
-      {/* <SocialHandle/> */}
+      </div> */}
+      <About />
+      <My_Services />
+      <SocialHandle />
     </>
   );
 }

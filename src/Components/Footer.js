@@ -17,7 +17,7 @@ export default function Footer() {
               <ImGithub id="foot-icon" />
             </a>
             <a
-              href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+              href="https://www.linkedin.com/in/hassan-javaid-aa7610290/"
               target="_blank"
             >
               <BsLinkedin id="foot-icon" />

@@ -17,31 +17,32 @@ import { BiExtension } from "react-icons/bi";
 import { FaChrome } from "react-icons/fa";
 import { TbBrandSublimeText } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
-import SocialHandle from "./SocialHandle";
+import { Element } from "react-scroll";
 
 export default function About() {
-  document.title =  'Hassanjavaid | About'
   return (
     <>
       <div className="know_me">
-        <div className="sub_know_me">
-          <p className="know_heading" data-aos="fade-left">
-            Know Who <span>I'm? </span>
-          </p>
-          <p id="sub_heading" data-aos="fade-up">
-            Hi Everyone, I am <span className="about_span">Hassanjavaid</span>{" "}
-            from <span className="about_span">Pakistan</span>.
-          </p>
-        </div>
+          <div className="sub_know_me">
+        <Element name="About">
+            <p className="know_heading" data-aos="fade-left">
+              Know Who <span>I'm? </span>
+            </p>
+            <p id="sub_heading" data-aos="fade-up">
+              Hi Everyone, I am <span className="about_span">Hassanjavaid</span>{" "}
+              from <span className="about_span">Pakistan</span>.
+            </p>
+        </Element>
+          </div>
         <div className="full_detail" data-aos="fade-left">
           I'm a self-taught frontend developer with expertise in HTML, CSS,
-          Bootstrap JavaScript, and React.js. Currently, I'm crafting
-          user-friendly web interfaces and diving into exciting new projects. I
-          have a passion for transforming ideas into interactive digital
-          experiences. In my free time, I explore the latest tech trends, enjoy
-          coding challenges, and love bringing creative concepts to life. Eager
-          to collaborate, learn, and make a meaningful impact in the web
-          development world! 🚀🌐
+          Bootstrap JavaScript, React.js, Npm, Git, Github. Currently, I'm
+          crafting user-friendly web interfaces and diving into exciting new
+          projects. I have a passion for transforming ideas into interactive
+          digital experiences. In my free time, I explore the latest tech
+          trends, enjoy coding challenges, and love bringing creative concepts
+          to life. Eager to collaborate, learn, and make a meaningful impact in
+          the web development world! 🚀🌐
           <div>
             <img
               src={about_person}
@@ -82,7 +83,7 @@ export default function About() {
           <FaNodeJs className="tool_icon" />
         </div>
       </div>
-      <SocialHandle />
+      {/* <SocialHandle /> */}
     </>
   );
 }
