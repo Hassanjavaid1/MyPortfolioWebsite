@@ -3,19 +3,18 @@ import "./App.css";
 import React, { Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Loader from "./Loader";
+import Navbar from "./Components/Navbar";
+const Home = React.lazy(() => import("./Components/Home"));
+const About = React.lazy(() => import("./Components/About"));
+const Portfolio = React.lazy(() => import("./Components/Portfolio"));
 const Contact = React.lazy(() => import("./Components/Contact"));
 const Footer = React.lazy(() => import("./Components/Footer"));
-const Home = React.lazy(() => import("./Components/Home"));
-const Navbar = React.lazy(() => import("./Components/Navbar"));
-const Portfolio = React.lazy(() => import("./Components/Portfolio"));
-const About = React.lazy(() => import("./Components/About"));
-
 function App() {
   return (
     <>
-      <Suspense fallback={<Loader />}>
-        <BrowserRouter basename="/MyPortfolioWebsite">
-          <Navbar />
+      <BrowserRouter basename="/MyPortfolioWebsite">
+        <Navbar />
+        <Suspense fallback={<Loader />}>
           <div>
             <Routes>
               <Route exact path="/" element={<Home />} />
@@ -26,8 +25,8 @@ function App() {
           </div>
           <ScrollToTop smooth />
           <Footer />
-        </BrowserRouter>
-      </Suspense>
+        </Suspense>
+      </BrowserRouter>
     </>
   );
 }

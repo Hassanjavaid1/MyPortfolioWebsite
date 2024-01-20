@@ -44,5 +44,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "I crafted this React.js website to showcase my passion for frontend development. 🎨✨ Here, you'll find a collection of my projects, reflecting my skills in HTML, CSS, and JavaScript. 🖥️💡 Each click represents my dedication to crafting seamless and visually appealing web experiences. 🚀 Let's connect and discuss how I can bring your ideas to life!",
+  "main": "index.js",
+  "author": "hassan javaid",
+  "license": "ISC",
+  "keywords": [
+    "updates"
+  ]
 }

@@ -2,8 +2,8 @@ body {
   margin: 0px;
   padding: 0px;
   scroll-behavior: smooth;
-  background-image: url(./Components/Photos/background\ image.jpg);
   background-position: center;
+  background-image: url(./Components/Photos/background\ image.jpg);
 }
 html {
   scroll-behavior: smooth;

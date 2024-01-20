@@ -1,3 +1,4 @@
+
 .loader {
   border: 11px solid #f3f3f3;
   border-radius: 50%;
@@ -5,9 +6,13 @@
   width: 120px;
   height: 120px;
   animation: spin 1s linear infinite;
+
+
+}
+.main_loader{
   position: absolute;
-  left: 50%;
-  top: 40%;
+    top: 50%;
+    right: 50%;
 }
 
 @-webkit-keyframes spin {

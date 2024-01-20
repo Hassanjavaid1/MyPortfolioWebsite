@@ -12,7 +12,7 @@ function My_Services() {
           </Element>
         <div className="main_service" data-aos="fade-left">
         {serviceData.map(({name,description,service_icon})=>(
-        <div className="sub_services">
+        <div className="sub_services" key={description}>
       <span>{service_icon}</span>
 <div className="service_desc">
   <h3 className="service_title">{name}</h3>
