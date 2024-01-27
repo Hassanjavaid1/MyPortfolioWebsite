@@ -1,6 +1,5 @@
 import { MdPhonelink } from "react-icons/md";
 import { CgWebsite } from "react-icons/cg";
-import { GrSystem } from "react-icons/gr";
 import { IoSpeedometerOutline } from "react-icons/io5";
 import { SiPostman } from "react-icons/si";
 import { FaBug } from "react-icons/fa";
@@ -9,13 +8,14 @@ import React from "react";
 
 import iflix_figma from "./Photos/iflix figma.jpg";
 import news_figma from "./Photos/news figma.png";
-import random_figma from "./Photos/random figma (1).jpg";
 import ecommerce_figma from "./Photos/ecommerce figma.jpg";
 import weather_app from "./Photos/project_weather.jpg";
 import calculator from "./Photos/React Calculator.jpg";
 import dictionary from './Photos/dictionary.jpg'
 import github_user from './Photos/search_github1.jpg'
-
+import todo_app from './Photos/todo picture.jpg'
+import random_password from './Photos/random password.jpg'
+import quiz_app from './Photos/quiz app.jpg'
 let serviceData = [
   {
     service_icon: <CgWebsite className="service_icon" />,
@@ -87,6 +87,12 @@ const projectData = [
     url: "https://hassanjavaid1.github.io/React_Calculator/",
   },
   {
+    title: "To-Do App!",
+    img: todo_app,
+    github: "https://github.com/Hassanjavaid1/To-Do-List",
+    url: "https://hassanjavaid1.github.io/To-Do-List/",
+  },
+  {
     title: "English_Dictionary!",
     img: dictionary,
     github: "https://github.com/Hassanjavaid1/JavaScript-English_Dictionary",
@@ -97,6 +103,18 @@ const projectData = [
     img: github_user,
     github: "https://github.com/Hassanjavaid1/Search_Github_Users",
     url: "https://hassanjavaid1.github.io/Search_Github_Users/",
+  },
+  {
+    title: "Quiz App!",
+    img: quiz_app,
+    github: "https://github.com/Hassanjavaid1/Quiz-App",
+    url: "https://hassanjavaid1.github.io/Quiz-App/",
+  },
+  {
+    title: "Random Password Generator!",
+    img: random_password,
+    github: "https://github.com/Hassanjavaid1/Random-Passwords-Generator-",
+    url: "https://hassanjavaid1.github.io/Random-Passwords-Generator-/",
   },
 
 ];
