@@ -1,9 +1,9 @@
 body {
   margin: 0px;
   padding: 0px;
+background-color: #19112a!important;
   scroll-behavior: smooth;
   background-position: center;
-background-color: #19112a;
 }
 html {
   scroll-behavior: smooth;
