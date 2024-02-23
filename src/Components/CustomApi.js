@@ -7,15 +7,18 @@ import { FiShoppingBag } from "react-icons/fi";
 import React from "react";
 
 import iflix_figma from "./Photos/iflix figma.jpg";
-import news_figma from "./Photos/news figma.png";
+import news_figma from "./Photos/news figma.webp";
 import ecommerce_figma from "./Photos/ecommerce figma.jpg";
 import weather_app from "./Photos/project_weather.jpg";
 import calculator from "./Photos/React Calculator.jpg";
-import dictionary from './Photos/dictionary.jpg'
-import github_user from './Photos/search_github1.jpg'
-import todo_app from './Photos/todo picture.jpg'
-import random_password from './Photos/random password.jpg'
-import quiz_app from './Photos/quiz app.jpg'
+import dictionary from "./Photos/dictionary.jpg";
+import github_user from "./Photos/search_github1.jpg";
+import todo_app from "./Photos/todo picture.jpg";
+import random_password from "./Photos/random password.jpg";
+import quiz_app from "./Photos/quiz app.jpg";
+import hangman_game from "./Photos/hangman game.jpg";
+import qr_code from "./Photos/qr.webp";
+import ramadan_gift from "./Photos/ramadan.webp";
 let serviceData = [
   {
     service_icon: <CgWebsite className="service_icon" />,
@@ -75,6 +78,12 @@ const projectData = [
     url: "https://hassanjavaid1.github.io/React-News-App/",
   },
   {
+    title: "Hangman Game!",
+    img: hangman_game,
+    github: "https://github.com/Hassanjavaid1/Hangman-game",
+    url: "https://hassanjavaid1.github.io/Hangman-game/",
+  },
+  {
     title: "React Weather App!",
     img: weather_app,
     github: "https://github.com/Hassanjavaid1/ReactWeatherApp",
@@ -111,11 +120,22 @@ const projectData = [
     url: "https://hassanjavaid1.github.io/Quiz-App/",
   },
   {
+    title: "Ramadan Gift!",
+    img: ramadan_gift,
+    github: "https://github.com/Hassanjavaid1/Ramadan_gift",
+    url: "https://hassanjavaid1.github.io/Ramadan_gift/",
+  },
+  {
+    title: "QR Code Generator!",
+    img: qr_code,
+    github: "https://github.com/Hassanjavaid1/QR-Code-Generator",
+    url: "https://hassanjavaid1.github.io/QR-Code-Generator/",
+  },
+  {
     title: "Random Password Generator!",
     img: random_password,
     github: "https://github.com/Hassanjavaid1/Random-Passwords-Generator-",
     url: "https://hassanjavaid1.github.io/Random-Passwords-Generator-/",
   },
-
 ];
 export { serviceData, projectData };
